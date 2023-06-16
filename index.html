@@ -19,7 +19,7 @@ rel="stylesheet">
 
     <style>
       .corefeaturesection{
-        background-size: 100% 100%;
+        /* background-size: 100% 100%; */
         padding-top: 12rem;
         padding-bottom: 10rem;
       }
@@ -52,7 +52,8 @@ rel="stylesheet">
       }
 
       .ctaSection{
-        background-size: 100% 100%;
+        /* background-size: 100% 100%; */
+        
       }
 
 
@@ -66,7 +67,7 @@ rel="stylesheet">
 
     <!--Banner-->
     <section class="bg-white relative">
-      <div class="max-w-full h-[50px] flex flex-row overflow-x-hidden justify-between">
+      <div class="max-w-full relative h-[50px] flex flex-row overflow-x-hidden justify-between">
         <!--left images-->
 
           <div class="hidden md:block" style="width: 40px; background: rgb(43, 131, 234); clip-path: polygon(0px 0px, 0% 100%, 100% 100%); margin-top: -7px; z-index: 999;"></div>
@@ -75,23 +76,23 @@ rel="stylesheet">
           <div class="hidden md:block" style="width: 170px; margin-left: -42px; background: rgb(243, 248, 254); clip-path: polygon(0px 0px, 82% 0px, 100% 100%, 15% 100%);"></div>
         
         <!--Content-->
-        <div class="flex flex-row max-w-[650px] justify-center items-center gap-x-4">
+        <div class="flex flex-row max-w-[650px] justify-center items-center gap-x-4 mx-auto ">
           <p class="font-mullish hidden lg:block">Simplify payroll with RazorpayX Payroll - Fast & Compliant</p>
           <p class="font-mullish block lg:hidden">RazorpayX Payroll</p>
           <button class="px-4 py-2 bg-lightBlue text-xs font-mullish font-bold text-white rounded-md">Claim 1 Month FREE</button>
         </div>
 
         <!--right images-->
-        <div class="css-0" style="width: 170px; margin-right: -42px; background: rgb(243, 248, 254); clip-path: polygon(0px 0px, 82% 0px, 100% 100%, 15% 100%);"></div>
-        <div class="css-0" style="width: 170px; margin-right: -42px; background: rgb(231, 241, 253); clip-path: polygon(0px 0px, 82% 0px, 100% 100%, 18% 100%);"></div>
-        <div class="css-0" style="width: 140px; margin-right: -170px; background: rgb(196, 221, 249); clip-path: polygon(0px 0px, 15% 0px, 35% 100%, 20% 100%);"></div>
-        <div class="css-0" style="width: 40px; background: rgb(43, 131, 234); clip-path: polygon(0px 0px, 100% 100%, 100% 0px); z-index: 999;"></div>
+        <div class="hidden md:block" style="width: 170px; margin-right: -42px; background: rgb(243, 248, 254); clip-path: polygon(0px 0px, 82% 0px, 100% 100%, 15% 100%);"></div>
+        <div class="hidden md:block" style="width: 170px; margin-right: -42px; background: rgb(231, 241, 253); clip-path: polygon(0px 0px, 82% 0px, 100% 100%, 18% 100%);"></div>
+        <div class="hidden md:block" style="width: 140px; margin-right: -170px; background: rgb(196, 221, 249); clip-path: polygon(0px 0px, 15% 0px, 35% 100%, 20% 100%);"></div>
+        <div class="hidden md:block" style="width: 40px; background: rgb(43, 131, 234); clip-path: polygon(0px 0px, 100% 100%, 100% 0px); z-index: 999;"></div>
       </div>
     </section>
 
     <!--Navbar-->
     <nav class="bg-deepBlue">
-      <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+      <div class="relative max-w-[1080px] mx-auto flex items-center justify-between">
 
           <!-- logo -->
           <a href="/" class="cursor-pointer py-7 pr-7">
@@ -1167,7 +1168,7 @@ rel="stylesheet">
     </section>
 
     <!--Core Features-->
-    <section class="w-full bg-[url('./images/core-features-sectionBg.svg')] bg-no-repeat bg-center mt-14 relative corefeaturesection z-10">
+    <section class="w-full bg-[url('./images/core-features-sectionBg.svg')] bg-no-repeat bg-cover bg-center mt-14 relative corefeaturesection z-10">
       <div class="w-10/12 max-w-[1080px] mx-auto relative pt-10 lg:pt-4  sm:pb-8">
         <h2 class="font-mullish font-bold text-2xl text-center text-white">Features</h2>
         <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-4"></div>
@@ -1345,7 +1346,7 @@ rel="stylesheet">
     </section>
 
     <!--Penultimate Section-->
-    <section class="relative bg-[url('./images/CTABg.svg')] ctaSection bg-center py-60 lg:py-24 z-10">
+    <section class="relative bg-[url('./images/CTABg.svg')] ctaSection bg-cover bg-center bg-no-repeat py-60 lg:py-24 z-10">
 
       <!--main content-->
       <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center mx-auto justify-between space-x-20 min-h-[350px]">
@@ -1354,7 +1355,7 @@ rel="stylesheet">
           <h2 class="font-mullish font-extrabold text-2xl text-white">
             Supercharge your business with Razorpay</h2>
           <div class="h-1 w-6 bg-greenLight mt-3 mb-5"></div>
-          <p class="font-mullish text-white w-[450px]">Sign up now to experience the future of payments and offer your customers the best checkout experience.</p>
+          <p class="font-mullish text-white max-w-[450px]">Sign up now to experience the future of payments and offer your customers the best checkout experience.</p>
   
           <ul class="flex flex-row flex-wrap gap-4  text-white max-w-[600px] mt-9">
             <li class="flex flex-row font-mullish text-white gap-4">
@@ -1398,12 +1399,12 @@ rel="stylesheet">
     </section>
 
     <!--Footer-->
-    <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="-mt-[400px] md:-mt-[300px] relative  pb-10">
+    <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="-mt-[400px] md:-mt-[300px] relative pb-10">
       
       <div class="w-10/12 max-w-[1000px] pt-[400px] md:pt-[350px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 mx-auto ">
                
         <!--Column 1-->
-        <div class="flex flex-col gap-3 mt-4 lg:mt-0">
+        <div class="flex flex-col gap-3 ">
           <img src="./images/logo-dark.svg" alt="" width="120px">
           <p class="text-sm font-mullish max-w-[15rem] opacity-80">Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite. 
              It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
@@ -1427,7 +1428,7 @@ rel="stylesheet">
         </div>
 
         <!--Column 2-->
-        <div class="space-y-8">
+        <div class="space-y-8 mt-5 lg:mt-0">
 
           <div class="font-mullish space-y-1">
             <h2 class="uppercase font-bold opacity-70 text-lg">Banking Plus</h2>
